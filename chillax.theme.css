@@ -100,9 +100,9 @@
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 230, 230, 230;
+    --accentcolor: 58, 58, 58;
     /* chillax colours hex */
-    --accentcolorV2: #e6e6e6;
+    --accentcolorV2: #3a3a3a;
 
 
     /* settings modal root */
@@ -216,9 +216,18 @@ html .mentioned_SY_P2T:before {
 /* ping count badges: white with black numbers */
 [class*="numberBadge"],
 [class*="textBadge"] {
-    background: linear-gradient(180deg, #fff, #cfcfcf) !important;
-    color: #000 !important;
+    background: linear-gradient(180deg, #3a3a3a, #000) !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.25) !important;
 }
+
+/* server list icons + Discord home button: black gradient instead of white */
+[class*="childWrapper"],
+[data-list-item-id="guildsnav___home"] [class*="childWrapper"] {
+    background: linear-gradient(145deg, #3a3a3a 0%, #121212 60%, #000 100%) !important;
+    color: #fff !important;
+}
+[class*="childWrapper"] svg { color: #fff !important; }
 
 /* NEW messages divider: grey instead of red/purple */
 [class*="divider"][class*="isUnread"] { border-color: #8a8a8a !important; }
