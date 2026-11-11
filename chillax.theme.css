@@ -189,6 +189,21 @@
 /*}*/
 
 
+
+/* ===== Hush 7 overrides ===== */
+/* title bar name */
+.leading_3zSH5d::before,
+.leading_3zSH5d:hover::before {
+    content: "FFE h u s h  7" !important;
+}
+
+/* call controls bar: black gradient so the white icons show */
+.wrapper_9bvEB0,
+.centerButton_K9Xq13.colorable_K9Xq13 {
+    background: linear-gradient(135deg, #2a2a2a 0%, #0d0d0d 55%, #000 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
 /*Permissions*/
 /*
 - You do not have the rights to use our theme name Chillax™ on other projects
