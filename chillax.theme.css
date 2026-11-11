@@ -204,6 +204,29 @@
     border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
+/* mentions (@you pings): dark gradient + white edge so text stays readable */
+html .mentioned_SY_P2T,
+html .mentioned_SY_P2T:hover {
+    background: linear-gradient(90deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.03) 60%, transparent 100%) !important;
+}
+html .mentioned_SY_P2T:before {
+    background: #fff !important;
+}
+
+/* ping count badges: white with black numbers */
+[class*="numberBadge"],
+[class*="textBadge"] {
+    background: linear-gradient(180deg, #fff, #cfcfcf) !important;
+    color: #000 !important;
+}
+
+/* NEW messages divider: grey instead of red/purple */
+[class*="divider"][class*="isUnread"] { border-color: #8a8a8a !important; }
+[class*="divider"][class*="isUnread"] [class*="unreadPill"],
+[class*="divider"][class*="isUnread"] span { background: #8a8a8a !important; color: #000 !important; }
+[class*="divider"][class*="isUnread"] [class*="unreadPillCap"] { color: #8a8a8a !important; }
+.newMessagesBar_j9Vvzj.barBase_j9Vvzj { background: #1a1a1a !important; color: #fff !important; }
+
 /*Permissions*/
 /*
 - You do not have the rights to use our theme name Chillax™ on other projects
