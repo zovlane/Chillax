@@ -1,10 +1,10 @@
 /**
- * @name Chillax
+ * @name Hush 7
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
  * @version 2.1.3
  * @invite DrfX6286kF
- * @description The theme where calm meets customization.
+ * @description Hush 7: a black and white edition, built on the Chillax theme by Chillax Squad.
  * @source https://github.com/warrayquipsome/Chillax
 */
 
@@ -46,7 +46,7 @@
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url("https://cdn.jsdelivr.net/gh/zovlane/Chillax@main/Wallpapers/nature-forest.svg"); /* nature edition */
+    --wallpaper: url("https://cdn.jsdelivr.net/gh/zovlane/Chillax@main/Wallpapers/hush7-mono.svg"); /* Hush 7 */
     /*modern background selection*/
     --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
     --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
@@ -56,26 +56,26 @@
 /*window*/ /*dark mode*/
 :root.theme-dark {
     --window-margin: 20px; /*must be above 20px*/
-    --window-colour: rgba(10, 30, 18, 0.62);
+    --window-colour: rgba(0, 0, 0, 0.72);
     --window-blur: 5px;
     --window-border-radius: 10px;
-    --sidebar-colour: rgb(22, 44, 30);
+    --sidebar-colour: rgb(18, 18, 18);
 }
 
 /*window*/ /*light mode*/
 :root.theme-light {
     --window-margin: 20px; /*must be above 20px*/
-    --window-colour: rgba(240, 248, 230, 0.6);
+    --window-colour: rgba(255, 255, 255, 0.7);
     --window-blur: 5px;
     --window-border-radius: 10px;
-    --sidebar-colour: rgb(205, 222, 190);
+    --sidebar-colour: rgb(235, 235, 235);
 }
 
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
-    --edited-message: " regrown 🌱 ";
+    --user-name: "Hush 7";
+    --edited-message: " edited ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
     --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
@@ -100,14 +100,14 @@
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 120, 190, 110;
+    --accentcolor: 230, 230, 230;
     /* chillax colours hex */
-    --accentcolorV2: #78be6e;
+    --accentcolorV2: #e6e6e6;
 
 
     /* settings modal root */
-    --themelightsettingsmodalbackground: rgb(222, 234, 210);
-    --themedarksettingsmodalbackground: rgb(28, 48, 34);
+    --themelightsettingsmodalbackground: rgb(245, 245, 245);
+    --themedarksettingsmodalbackground: rgb(14, 14, 14);
     --settingsmodalwidth: 960px;
     --settingsmodalheight: 80vh;
 
@@ -116,13 +116,13 @@
 
     /* placeholder texts/values */
     /* input fields */
-    --chillax-input-field: "Take a breath of fresh forest air...";
+    --chillax-input-field: "hush...";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "This trail is closed 🌲";
+    --chillax-input-field-locked: "silence in this channel";
     /* typing indicator: when a single person is typing */
-    --chillax-input-typing-indicator-one-person: "is rustling some leaves";
+    --chillax-input-typing-indicator-one-person: "is whispering";
     /* typing indicator: when more than one person is typing */
-    --chillax-input-typing-indicator-many-person: "are rustling some leaves";
+    --chillax-input-typing-indicator-many-person: "are whispering";
 
     /* scroller (by default transparent) */
     --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
@@ -136,17 +136,17 @@
     --chillax-spotify-control-squid-height: 25px;
 
     /* adjust glow color accordingly */
-    --chillax-spotify-control-squid-glow: rgba(120, 190, 110, 0.45); /* set to `none` to disable it */
+    --chillax-spotify-control-squid-glow: rgba(255, 255, 255, 0.35); /* set to `none` to disable it */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
 .theme-dark {
     --background-message-hover: rgba(255, 255, 255, 0.055);
     --header-primary: #fff;
-    --header-secondary: #b7c9ad;
-    --text-normal: #e2ecd9;
+    --header-secondary: #b5b5b5;
+    --text-normal: #e8e8e8;
     --text-muted: #9d9d9d;
-    --channels-default: #8fa58a;
+    --channels-default: #8a8a8a;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
@@ -154,7 +154,7 @@
     --background-primary: transparent;
     --background-secondary: transparent;
     --background-tertiary: transparent;
-    --background-accent: rgb(30, 58, 40);
+    --background-accent: rgb(30, 30, 30);
     --activity-card-background: transparent;
     --deprecated-panel-background: transparent;
 }

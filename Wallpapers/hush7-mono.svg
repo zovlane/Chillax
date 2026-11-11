@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="g" cx=".5" cy=".42" r=".75">
+      <stop offset="0" stop-color="#3a3a3a"/><stop offset=".6" stop-color="#141414"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <circle cx="960" cy="440" r="210" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
+  <circle cx="960" cy="440" r="320" fill="none" stroke="#fff" stroke-opacity=".05" stroke-width="2"/>
+  <text x="960" y="470" text-anchor="middle" font-family="Georgia,serif" font-size="96" letter-spacing="24" fill="#fff" fill-opacity=".14">HUSH 7</text>
+</svg>
